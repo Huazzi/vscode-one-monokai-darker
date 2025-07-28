@@ -1,0 +1,21 @@
+{
+  "name": "one-monokai-darker",
+  "displayName": "one-monokai-darker",
+  "description": "A beautiful color theme based one monokai.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Monokai Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneMonokaiDarker-color-theme.json"
+      }
+    ]
+  }
+}
