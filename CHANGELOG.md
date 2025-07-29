@@ -77,4 +77,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This theme is inspired by the classic Monokai color scheme but enhanced with modern development practices in mind. The bold keyword feature is designed to improve code readability and help developers quickly identify code structure and control flow.
 
-For bug reports and feature requests, please visit our [GitHub repository](https://github.com/your-username/vscode-one-monokai-darker).
+For bug reports and feature requests, please visit our [GitHub repository](https://github.com/Huazzi/vscode-one-monokai-darker).
