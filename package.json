@@ -1,14 +1,42 @@
 {
   "name": "one-monokai-darker",
-  "displayName": "one-monokai-darker",
-  "description": "A beautiful color theme based one monokai.",
-  "version": "0.0.1",
+  "displayName": "One Monokai Darker",
+  "description": "🎨 A beautiful dark theme inspired by One Monokai with enhanced bold keywords and refined color palette for better code readability",
+  "version": "1.0.0",
+  "publisher": "zzhua",
+  "author": {
+    "name": "Huazzi"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Huazzi/vscode-one-monokai-darker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Huazzi/vscode-one-monokai-darker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Huazzi/vscode-one-monokai-darker/issues"
+  },
   "engines": {
     "vscode": "^1.54.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "monokai",
+    "color theme",
+    "syntax highlighting",
+    "bold keywords",
+    "programming",
+    "code editor"
+  ],
+  "galleryBanner": {
+    "color": "#1e2227",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
@@ -17,5 +45,11 @@
         "path": "./themes/OneMonokaiDarker-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
   }
 }
